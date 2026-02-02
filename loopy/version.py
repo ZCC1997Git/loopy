@@ -28,7 +28,8 @@ import re
 from importlib import metadata
 
 
-VERSION_TEXT = metadata.version("loopy")
+#VERSION_TEXT = metadata.version("loopy")
+VERSION_TEXT = "2026.2"
 _match = re.match(r"^([0-9.]+)([a-z0-9]*?)$", VERSION_TEXT)
 assert _match is not None
 VERSION_STATUS = _match.group(2)
