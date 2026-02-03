@@ -7,8 +7,7 @@
         {
             "name": "Python 调试程序: 当前文件",
             "env": {
-                    "name":"PYTHONPATH",
-                    "value": "${env:PYTHONPATH}:${workspaceFolder}/loopy:${workspaceFolder}"
+                "PYTHONPATH":"${env:PYTHONPATH}:${workspaceFolder}"
             },
             "cwd": "${workspaceFolder}",
             "type": "debugpy",
